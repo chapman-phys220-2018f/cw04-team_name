@@ -3,6 +3,7 @@
 import math
 
 def gen_eratosthenes():
+    """generates a list of prime numbers"""
     index = 0
     count = 0
     list_primes = [2]
@@ -22,6 +23,7 @@ def gen_eratosthenes():
         next_prime += 1
 
 def eratosthenes(n):
+    """uses generator to return list of n number of prime numbers"""
     p = gen_eratosthenes()
     primes = []
     for _ in range(n):
