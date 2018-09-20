@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/chapman-phys220-2018f/hw03-jacob-anabi.svg?token=qoZCzBJqHLhaMdzQpqq4&branch=master)](https://travis-ci.com/chapman-phys220-2018f/hw03-jacob-anabi)
+[![Build Status](https://travis-ci.com/chapman-phys220-2018f/cw04-team_name.svg?branch=master)](https://travis-ci.com/chapman-phys220-2018f/cw04-team_name)
 
 # PHYS220/MATH220/CPSC220 CW 4
 
