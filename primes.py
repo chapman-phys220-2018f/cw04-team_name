@@ -26,6 +26,9 @@ def eratosthenes(n):
     """uses generator to return list of n number of prime numbers"""
     p = gen_eratosthenes()
     primes = []
+    p_iteration = 0
     for _ in range(n):
-        primes.append(next(p))
+        p_iteration = next(p)
+        if (p_iteration < n):
+            primes.append(p_iteration)
     return primes
