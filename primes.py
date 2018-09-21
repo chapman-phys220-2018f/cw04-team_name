@@ -23,7 +23,7 @@ def gen_eratosthenes():
         next_prime += 1
 
 def eratosthenes(n):
-    """uses generator to return list of n number of prime numbers"""
+    """uses generator to return list of prime numbers less than n"""
     p = gen_eratosthenes()
     primes = []
     p_iteration = 0
