@@ -23,6 +23,15 @@ def gen_eratosthenes():
         next_prime += 1
 
 def eratosthenes(n):
+    """returns list of prime numbers less than n"""
+    primes = list(range(2, n))
+    for i in range(2, int(math.sqrt(n)) + 1):
+        for j in primes:
+            if (i != j) and (j % i == 0):
+                   primes.remove(j)
+    return primes
+
+def eratosthenes_with_gen(n):
     """uses generator to return list of prime numbers less than n"""
     p = gen_eratosthenes()
     primes = []
