@@ -28,7 +28,7 @@ Complete the following exercises, saving your solutions in the indicated files. 
 
 Analyze in this section what you found useful about this assignment in your own words. Include any lingering questions or comments that you may have. You can use the GitHub web interface to edit this file directly for now.
 
-**Learned about generators and using Jupyter notebooks**
+**Learned about generators and using Jupyter notebooks.**
 
 ## Honor Pledge
 
